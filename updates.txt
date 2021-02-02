@@ -7,4 +7,4 @@ act(){
     source /mnt/c/develop/venvs/$1/bin/activate
 }
 
-alias repos="cd /mnt/c/develop/repos"
+alias repos="cd /mnt/c/develop/repos"  
