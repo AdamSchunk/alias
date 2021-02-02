@@ -1,0 +1,10 @@
+mkvenv(){
+    mkdir /mnt/c/develop/venvs/$1
+    python -m venv /mnt/c/develop/venvs/$1
+}
+
+act(){
+    source /mnt/c/develop/venvs/$1/bin/activate
+}
+
+alias repos="cd /mnt/c/develop/repos"
